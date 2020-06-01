@@ -1,5 +1,4 @@
-name: shiva-test
-
+name: stest
 general:
   datacenters: 
     sas:
