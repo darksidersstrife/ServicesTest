@@ -1,1 +1,6 @@
-
+name: stest
+owner: https://st/d/owner
+provides: 
+  - name: test
+    protocol: http
+    port: 80
