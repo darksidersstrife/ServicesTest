@@ -1,1 +1,16 @@
+name: shiva-test
 
+general:
+  datacenters: 
+    sas:
+      count: 2
+    myt:
+      count: 2
+  resources:
+    cpu: 100
+    memory: 256
+  env:
+    - FAIL: false
+    - API: http
+    - OPS_PORT: 81
+    - API_PORT: 80
